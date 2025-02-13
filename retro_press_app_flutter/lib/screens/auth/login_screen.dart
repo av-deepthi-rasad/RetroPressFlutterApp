@@ -32,7 +32,8 @@ class _LoginScreenState extends State<LoginScreen> {
           email: emailController.text.trim(),
           password: passwordController.text.trim());
       Fluttertoast.showToast(
-          msg: "Login Successful", backgroundColor: Colors.green);
+          msg: "Login Successful",
+          backgroundColor: const Color.fromARGB(255, 73, 73, 73));
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => HomeScreen()));
     } on FirebaseAuthException catch (e) {
