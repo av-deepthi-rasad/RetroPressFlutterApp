@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511156072895",
+    "project_id": "retropressapp",
+    "storage_bucket": "retropressapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511156072895:android:ec049446ede7da56afb10a",
+        "android_client_info": {
+          "package_name": "com.example.retro_press_app_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMMXduAme2eL8hACUJulaApoo_maVKpcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
